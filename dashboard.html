@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="scriptDashboard.js"></script>
+    <link rel="stylesheet" href="cssDashboard.css">
+</head>
+<body>
+    <div class="whole-thing">
+        <div class="sideBar">
+            <div class="sideBarLargeText">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
+                <p>Dashboard</p>
+            </div>
+            <div class="sideBarOptionContainer">
+                
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+                    Home</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>account-details</title><path d="M11 9C11 10.66 9.66 12 8 12C6.34 12 5 10.66 5 9C5 7.34 6.34 6 8 6C9.66 6 11 7.34 11 9M14 20H2V18C2 15.79 4.69 14 8 14C11.31 14 14 15.79 14 18M22 12V14H13V12M22 8V10H13V8M22 4V6H13V4Z" /></svg>
+                    Profile</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>table</title><path d="M5,4H19A2,2 0 0,1 21,6V18A2,2 0 0,1 19,20H5A2,2 0 0,1 3,18V6A2,2 0 0,1 5,4M5,8V12H11V8H5M13,8V12H19V8H13M5,14V18H11V14H5M13,14V18H19V14H13Z" /></svg>
+                    Ongoing Projects</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>table-check</title><path d="M4 3H18C19.11 3 20 3.9 20 5V12.08C18.45 11.82 16.92 12.18 15.68 13H12V17H13.08C12.97 17.68 12.97 18.35 13.08 19H4C2.9 19 2 18.11 2 17V5C2 3.9 2.9 3 4 3M4 7V11H10V7H4M12 7V11H18V7H12M4 13V17H10V13H4M17.75 21L15 18L16.16 16.84L17.75 18.43L21.34 14.84L22.5 16.25L17.75 21" /></svg>
+                    Completed Projects</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>calendar-account</title><path d="M12 9C14 9 15 11.42 13.59 12.84C12.17 14.26 9.75 13.25 9.75 11.25C9.75 10 10.75 9 12 9M16.5 18H7.5V16.88C7.5 15.63 9.5 14.63 12 14.63S16.5 15.63 16.5 16.88M19 19H5V8H19M16 1V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3H18V1H16Z" /></svg>
+                    Calendar notes</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16"><title>bell-alert</title><path d="M23 7V13H21V7M21 15H23V17H21M12 2A2 2 0 0 0 10 4A2 2 0 0 0 10 4.29C7.12 5.14 5 7.82 5 11V17L3 19V20H21V19L19 17V11C19 7.82 16.88 5.14 14 4.29A2 2 0 0 0 14 4A2 2 0 0 0 12 2M10 21A2 2 0 0 0 12 23A2 2 0 0 0 14 21Z" /></svg>
+                    Reminders</div>
+                <div class="sideBarOptions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16"><title>account-group</title><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg>
+                    Project communities</div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="topmenu">
+                <svg xmlns="http://www.w3.org/2000/svg" id="searchImg" viewBox="0 0 24 24"><title>card-search-outline</title><path d="M11.5 16C12.37 16 13.19 15.74 13.88 15.3L16.32 17.74L17.74 16.32L15.3 13.89C15.74 13.19 16 12.38 16 11.5C16 9 14 7 11.5 7S7 9 7 11.5 9 16 11.5 16M11.5 9C12.88 9 14 10.12 14 11.5S12.88 14 11.5 14 9 12.88 9 11.5 10.12 9 11.5 9M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4M20 18H4V6H20V18Z" /></svg>
+                <input type="text">
+                <div class="welcomeMsg">
+                    <div>Welcome,</div>
+                    <div id="userIdWlc"></div>
+                </div>
+            </div>
+            <div class="gridArea"></div>
+        </div>
+    </div>
+</body>
+</html>

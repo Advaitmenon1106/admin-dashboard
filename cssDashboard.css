@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole-thing{
+    display: flex;
+}
+
+.sideBar{
+    flex: 1;
+    background-color: #1992d4;
+    color:aliceblue;
+    height: 100vw;
+}
+
+.content{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarLargeText{
+    display: flex;
+    text-align: center;
+    height: fit-content;
+    font-size: 40px;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.sideBarOptionContainer svg, .sideBar svg{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    fill: aliceblue;
+}
+
+.sideBarLargeText p{
+    margin-top: 0.5%;
+}
+
+.sideBarOptionContainer{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 290px /*281px*/;
+    grid-auto-rows: 90px;
+}
+
+.sideBarOptions{
+    padding-left: 11%;
+    font-size: 25px;
+}
+
+.sideBarOptions svg{
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(229, 229, 229);
+}
+
+
+.sideBarOptions:hover, .sideBarOptions svg:hover{
+    cursor: pointer;
+}
+
+.topmenu{
+    flex: 1.5;
+    background-color: white;
+
+}
+
+.topmenu svg{
+    position: relative;
+    top: 17px;
+    fill: rgb(65, 65, 65);
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.topmenu input{
+    height: 15%;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #efeff0;
+    border: none;
+    font-size:23px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 3%;
+    
+}
+
+.topmenu input:focus{
+    background-color: #dbdce1;
+    outline: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: rgb(65, 65, 65);
+}
+
+.gridArea{
+    flex: 9;
+    background-color: #e5e7eb;
+    outline:none;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+.topmenu svg:hover{
+    fill: rgb(108, 107, 107);
+}
+
+.sideBarOptions:hover svg{fill: rgb(255, 255, 255)}
+
+.sideBarOptions:hover{
+    font-size: 27px;
+}
+
+.welcomeMsg{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-size: 30px;
+}
