@@ -32,3 +32,14 @@ input{
 #submit:hover{
     background-color: #d6ae0f;
 }
+
+#features{
+    padding: 1%;
+    margin-top: 3%;
+    background-color:#1992d4;
+    color: white;
+}
+
+#features:hover{
+    cursor: pointer;
+}
